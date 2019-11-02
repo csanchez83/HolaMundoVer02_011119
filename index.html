@@ -16,9 +16,14 @@
                 
             }
             
+            function alertDismissed()
+            {
+                
+            }
+            
             function onDeviceReady() {
-                alert("PhoneGap is Ready");
-                //navigator.notification.alert("PhoneGap es Ready");
+                //alert("PhoneGap is Ready");
+                navigator.notification.alert("PhoneGap es Ready", alertDismissed);
             }
         </script>
                 
