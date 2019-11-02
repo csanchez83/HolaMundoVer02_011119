@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <meta name="viewport" id="viewport" content="width=devise-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;">
+        
+        <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+        
+        <script type="text/javascript" charset="utf-8">
+        
+            function onBodyLoad()
+            {
+                            document.addEventListener("deviceready", onDeviceReady, false);
+                
+            }
+            
+            function onDeviceReady() {
+                navigator.notification.alert("PhoneGap es Ready");
+                
+        </script>
+                
+    </head>
+    <body onload="onBodyLoad()">
+        <h1>Hola Mundo Version 0.2</h1>
+        <p>Aplicación de PhoneGap sencilla</p>
+    </body>
+</html>
